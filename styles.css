@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    z-index: 2; /*layering*/
+}
+.header{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 100px;
+    z-index: 2;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*text will flow in the container from right to left*/
+    background-color: black;
+    display: flex;
+    justify-content: space-between; /* This pushes links to the edges */
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    float: left; /*everything is shifting to the left*/
+}
+ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: gray;
+    border-radius: 15px;
+}
+section{
+    height: 300px;
+    width: 300px;
+    border: 8px solid red;
+    display: inline-block;
+    background-size: 300px 300px;
+    padding: 0;
+    margin: 10px;
+}
+#Celebrate{
+    background-image: url(jayscelebrate.webp);
+    border-radius: 10px;
+}
+body{
+    background-color: cornflowerblue;
+}
+#bat{
+    position: relative;
+    left: 600px;
+    bottom: 180px;
+}
+#glove{
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+}
+#cleats{
+    position: relative;
+    left: 600px;
+    bottom: 135px;
+}
+table{
+    border-collapse: collapse;
+    width: 25em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px 5px rgba(0,0,0,5);
+    position: relative;
+    top: 200px;
+    left: 10px;
+    display: inline-table;
+}
+thead tr {
+    border-bottom: 3px dashed gray;
+}
+table thead tr td {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: grey;
+    padding: 8px;
+}
+table tbody tr td{
+    padding: 8px;
+}
+table tbody span{
+    font-size: 12px;
+    color: gray;
+}
+main{
+    position: relative;
+    top: 190px;
+    left: 350px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.national{
+    position: relative;
+    left: 600px;
+    bottom: 700px;
+}
+.american{
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+#glovetext{
+    position: relative;
+    top: 200px;
+    left: 250px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.glove1{
+    position: relative;
+    top: 210px;
+    left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sale1{
+    position: relative; 
+    left: 220px;
+    bottom: 125px;
+    color: white;
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.glove2{
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.glove3{
+    position: relative;
+    bottom: 275px; 
+    left: 440px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#battext{
+    position: relative;
+    bottom: 540px;
+    left: 1050px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.new1{
+    position: relative; 
+    left: 730px;
+    bottom: 635px;
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bat1{
+    position: relative; 
+    left: 730px;
+    bottom: 555px;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sale2{
+     position: relative; 
+    bottom: 865px; 
+    left: 1000px;
+    color: white;
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bat2{
+    position: relative; 
+    left: 1000px;
+    bottom: 785px;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bat3{
+    position: relative; 
+    left: 1240px;
+    bottom: 995px;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#footwear{
+    position: relative;
+    bottom: 900px;
+    left: 250px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footwear1{
+    position: relative;
+    bottom: 875px; 
+    left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footwear2{
+    position: relative;
+    bottom: 1090px; 
+    left: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footwear3{
+    position: relative;
+    bottom: 1300px; 
+    left: 490px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#battinggloves{
+    position: relative;
+    bottom: 1575px;
+    left: 1000px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bg1{
+    position: relative;
+    bottom: 1560px; 
+    left: 810px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg2{
+    position: relative;
+    bottom: 1770px; 
+    left: 1060px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg3{
+    position: relative;
+    bottom: 2000px; 
+    left: 1310px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#section2{
+    height: 200px;
+    width: 300px;
+    border: 8px solid red;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    left: 500px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+#signup{
+    display: inline;
+}
+#section3{
+    height: 370px;
+    width: 300px;
+    border: 8px solid red;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    left: 500px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+#back{
+    display: inline;
+}
